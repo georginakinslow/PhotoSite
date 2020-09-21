@@ -1,0 +1,34 @@
+body {
+    background-color: #eee:
+}
+
+
+p {
+    font-family: 'Unbuntu', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 5px; 
+    text-transform: uppercase; 
+    text-align: center; 
+    border-bottom: 5px solid #ccc;
+    /* Unit of measurement not needed when using value of zero */
+    padding: 10px 0;
+    /* 22.5 x 2 = 45 */
+    /* 1.25 x 2= 2.5 */
+    /* 22.5 + 2.5 = 47.5 */
+    width: 47.5%
+    /* Margin auto centers p element horizontally */
+    /* Margin auto is the sme as margin 0 auto */
+     margin: auto;
+}
+
+img {
+    /* 22.5 x 4 = 90 */
+    width: 22.5%;
+    /* 1.25 x 2 x 4= 10 */
+    margin: 1.25%;
+    /* 90 = 10 = 100 */
+    float: right;
+    /* The float css property places an element on the left or right side of its container, allowing text and inline lements to wrap around it. The lelement is reoved fromthe normal flow of the page. Also, removes the "mystery space" between elements. /*
+
+}
